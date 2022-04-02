@@ -1,0 +1,8 @@
+.blog-list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 40px;
+  background-color: rgb(206, 237, 247);
+}

@@ -1,0 +1,62 @@
+.nav-header {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background: url("https://png.pngtree.com/background/20210710/original/pngtree-blue-technology-background-banner-picture-image_1034452.jpg");
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: -40px;
+}
+.task-bar {
+  background-color: rgb(18, 18, 73);
+  padding: 5px;
+  width: 100%;
+}
+.task-bar-icons {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.task {
+  margin-right: 20px;
+  font-family: "roboto";
+}
+.nav-link {
+  text-decoration: none;
+  margin: 8px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.blog-title {
+  font-family: "Roboto";
+  color: white;
+  font-size: 25px;
+}
+.sub-title {
+  color: white;
+  font-family: "Roboto";
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: "Roboto";
+    color: white;
+    font-size: 34px;
+  }
+}
